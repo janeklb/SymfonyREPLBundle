@@ -33,3 +33,10 @@ Add to your ``deps``:
 	git=git://github.com/janeklb/SymfonyREPLBundle.git
 	target=/bundles/JLB/SymfonyREPLBundle
 ```
+
+
+Usage
+=====
+
+Run ``./app/console symfony:REPL``
+
