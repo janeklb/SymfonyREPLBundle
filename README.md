@@ -9,9 +9,8 @@ Installation
 Register the namespace in `autoload.php`
 ``` php
 $loader->registerNamespaces(array(
-...
-'JLB'              => __DIR__.'/../vendor/bundles',
-...
+	// ...
+	'JLB'              => __DIR__.'/../vendor/bundles',
 ```
 
 Add to your `AppKernel.php`:
@@ -23,7 +22,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new FOS\UserBundle\FOSUserBundle(),
+        new JLB\SymfonyREPLBundle\JLBSymfonyREPLBundle(),
     );
 }
 ```
